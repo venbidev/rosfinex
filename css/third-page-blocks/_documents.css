@@ -1,0 +1,87 @@
+.documents {
+  padding-bottom: 120px;
+}
+
+.documents__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 185px;
+}
+
+.documents__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.documents__title {
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.06667;
+  color: var(--color-gray-dark);
+}
+
+.documents__subtitle {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
+  color: var(--color-gray-light);
+}
+
+.documents__btn-block {
+  display: flex;
+  gap: 24px;
+}
+
+.documents__btn {
+  width: 303px;
+  min-height: 64px;
+  font-family: var(--font-second);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--color-white);
+}
+
+.documents__btn-transparent {
+  border-radius: 16px;
+  width: 335px;
+  height: 64px;
+  font-family: var(--font-second);
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.documents__cards {
+  display: flex;
+  gap: 20px;
+}
+
+.documents__card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px 30px;
+  border-radius: 20px;
+  width: 520px;
+  min-height: 258px;
+  background: linear-gradient(135deg, #f1f8fe 0%, #daecff 51.92%, #cae4ff 100%);
+}
+
+.documents__card-title {
+  font-family: var(--font-second);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08333;
+  color: var(--color-gray-dark);
+}
+
+.documents__card-text {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--color-gray-light);
+}

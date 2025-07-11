@@ -1,0 +1,90 @@
+.banks {
+  padding-top: 160px;
+  background: var(--color-black);
+}
+
+.banks_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.banks__title {
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.08333;
+  text-align: center;
+  color: #f6f4ff;
+}
+
+.banks__subtitle {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
+  text-align: center;
+  color: #9896b2;
+}
+
+.banks__btn {
+  border-radius: 16px;
+  width: 481px;
+  min-height: 64px;
+  font-family: var(--font-second);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--color-white);
+}
+
+.banks__cards {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.banks__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+
+.banks__card-mobile {
+  display: none;
+}
+
+@media (max-width: 819px) {
+  .banks {
+    padding-top: 100px;
+  }
+  .banks__title {
+    font-size: 32px;
+  }
+  .banks__subtitle {
+    font-size: 16px;
+  }
+  .banks__btn {
+    width: 350px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 549px) {
+  .banks_wrap {
+    gap: 20px;
+  }
+  .banks__title {
+    font-size: 24px;
+  }
+  .banks__subtitle {
+    font-size: 14px;
+  }
+  .banks__btn {
+    width: 220px;
+    min-height: 48px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,131 @@
+.comparison {
+  padding-top: 160px;
+  background: var(--color-black);
+}
+
+.comparison__block {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  min-height: 624px;
+  background: linear-gradient(
+    142deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(177, 184, 216, 0.01) 100%
+  );
+  margin-bottom: 44px;
+}
+
+.comparison__hr {
+  margin: 48px 0;
+  border: 1px solid #555469;
+  width: 100%;
+}
+
+.comparison__row-titles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comparison__row-title {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 0.75;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.comparison__rate-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comparison__rate-title {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.04167;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #e7e6f4;
+}
+
+.comparison__rate-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comparison__rate-dot {
+  display: flex;
+  gap: 12px;
+
+  img {
+    width: 20px;
+    height: 25px;
+  }
+}
+
+.comparison__rate-about {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0.75;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.comparison__rate-text {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  text-align: center;
+  color: #e0dfee;
+}
+
+.comparison__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.comparison__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 32px;
+  width: 520px;
+  min-height: 408px;
+  border-radius: 20px;
+  background: linear-gradient(
+    142deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(177, 184, 216, 0.01) 100%
+  );
+}
+
+.comparison__card-title {
+  font-family: var(--font-second);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08333;
+  background: linear-gradient(180deg, #f7f5ff 0%, #e1dbff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.comparison__card-text {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #9896b2;
+}

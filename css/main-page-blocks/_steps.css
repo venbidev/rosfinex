@@ -1,0 +1,220 @@
+.steps {
+  padding-top: 160px;
+  background: var(--color-black);
+}
+
+.steps__title {
+  font-family: var(--font-second);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.175;
+  text-align: center;
+  background: linear-gradient(180deg, #fff 0%, #e3e0f0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 32px;
+}
+
+.steps__subtitle {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
+  text-align: center;
+  color: #9896b2;
+  margin-bottom: 40px;
+}
+
+.steps__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 20px;
+}
+
+.steps__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+  padding: 48px 44px;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0 13px 14px 0 rgba(0, 0, 0, 0.11),
+    inset 0 9px 25px 0 rgba(230, 250, 255, 0.18);
+  background: rgba(33, 37, 45, 0.5);
+  transition: transform 0.2s ease-in;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+.steps__card-step {
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 39px;
+  border-radius: 14px;
+  font-family: var(--font-main);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 0.828;
+  border: 2px solid var(--color-white);
+  background: linear-gradient(135deg, #f1f8fe 0%, #daecff 51.92%, #cae4ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.steps__card-title {
+  font-family: var(--font-second);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.1875;
+  background: linear-gradient(180deg, #f7f5ff 0%, #e1dbff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.steps__card-text {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #9896b2;
+}
+
+.steps__card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  min-height: 64px;
+  background: linear-gradient(135deg, #f1f8fe 0%, #daecff 51.92%, #cae4ff 100%);
+  color: var(--color-black);
+  border-radius: 16px;
+  font-family: var(--font-second);
+  font-weight: 600;
+  font-size: 23px;
+  transition: color 0.2s ease-in;
+
+  &:hover {
+    background: transparent;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+  }
+}
+
+.steps__card-btn-transparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 361px;
+  min-height: 64px;
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
+  border-radius: 16px;
+  font-family: var(--font-second);
+  font-weight: 600;
+  font-size: 23px;
+  transition: color 0.2s ease-in;
+
+  &:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+  }
+}
+
+.steps__card-img {
+  position: absolute;
+  top: 55px;
+  right: 0;
+}
+
+@media (max-width: 1249px) {
+  .steps__card {
+    align-items: center;
+    gap: 18px;
+    padding: 24px 50px;
+    gap: 16px;
+  }
+  .steps__card-title {
+    text-align: center;
+    font-size: 24px;
+  }
+  .steps__card-title {
+    font-size: 20px;
+  }
+  .steps__card-text {
+    text-align: center;
+    font-size: 16px;
+  }
+  .steps__card-btn {
+    width: 200px;
+    font-size: 18px;
+  }
+  .steps__card-btn-transparent {
+    width: 250px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 709px) {
+  .steps {
+    padding-top: 100px;
+  }
+  .steps__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .steps__subtitle {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .steps__cards {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 16px;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .steps__cards::-webkit-scrollbar {
+    display: none;
+  }
+  .steps__card {
+    justify-content: space-between;
+    flex: 0 0 85%;
+    scroll-snap-align: start;
+    min-width: 240px;
+    max-width: 90%;
+  }
+  .steps__card-step {
+    height: 34px;
+    padding: 20px 28px;
+    font-size: 14px;
+  }
+  .steps__card-title {
+    font-size: 16px;
+  }
+  .steps__card-text {
+    font-size: 14px;
+  }
+  .steps__card-btn {
+    width: 100%;
+    min-height: 48px;
+    font-size: 14px;
+  }
+  .steps__card-btn-transparent {
+    width: 100%;
+    min-height: 48px;
+    font-size: 14px;
+  }
+}

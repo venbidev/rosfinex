@@ -1,0 +1,28 @@
+<svg width="182" height="278" viewBox="0 0 182 278" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_80_12)">
+<path d="M307.167 0H16.1667C11.879 0 7.76694 1.71205 4.73511 4.75952C1.70327 7.80698 0 11.9402 0 16.25V243.75C0 248.06 1.70327 252.193 4.73511 255.24C7.76694 258.288 11.879 260 16.1667 260H307.167C311.454 260 315.566 258.288 318.598 255.24C321.63 252.193 323.333 248.06 323.333 243.75V16.25C323.333 11.9402 321.63 7.80698 318.598 4.75952C315.566 1.71205 311.454 0 307.167 0ZM291 178.75C278.137 178.75 265.801 183.886 256.705 193.029C247.61 202.171 242.5 214.571 242.5 227.5H80.8333C80.8333 214.571 75.7235 202.171 66.628 193.029C57.5325 183.886 45.1963 178.75 32.3333 178.75V81.25C45.1963 81.25 57.5325 76.1139 66.628 66.9715C75.7235 57.8291 80.8333 45.4293 80.8333 32.5H242.5C242.5 45.4293 247.61 57.8291 256.705 66.9715C265.801 76.1139 278.137 81.25 291 81.25V178.75Z" fill="url(#paint0_radial_80_12)" fill-opacity="0.5" shape-rendering="crispEdges"/>
+<path d="M161.667 65C126.003 65 97 94.1525 97 130C97 165.848 126.003 195 161.667 195C197.33 195 226.333 165.848 226.333 130C226.333 94.1525 197.33 65 161.667 65ZM161.667 162.5C143.835 162.5 129.333 147.924 129.333 130C129.333 112.076 143.835 97.5 161.667 97.5C179.498 97.5 194 112.076 194 130C194 147.924 179.498 162.5 161.667 162.5Z" fill="url(#paint1_radial_80_12)" fill-opacity="0.5" shape-rendering="crispEdges"/>
+</g>
+<defs>
+<filter id="filter0_d_80_12" x="0" y="0" width="352.333" height="278" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="22" dy="11"/>
+<feGaussianBlur stdDeviation="3.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_80_12"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_80_12" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_80_12" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(241.275 245.904) rotate(-132.658) scale(334.375 457.215)">
+<stop stop-color="#E0EFFF" stop-opacity="0"/>
+<stop offset="0.36434" stop-color="#E0EFFF" stop-opacity="0.04"/>
+<stop offset="1" stop-color="#E0EFFF" stop-opacity="0.23"/>
+</radialGradient>
+<radialGradient id="paint1_radial_80_12" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(241.275 245.904) rotate(-132.658) scale(334.375 457.215)">
+<stop stop-color="#E0EFFF" stop-opacity="0"/>
+<stop offset="0.36434" stop-color="#E0EFFF" stop-opacity="0.04"/>
+<stop offset="1" stop-color="#E0EFFF" stop-opacity="0.23"/>
+</radialGradient>
+</defs>
+</svg>

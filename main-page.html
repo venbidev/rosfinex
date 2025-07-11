@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./img/icons/favicon.svg" type="image/x-icon" />
+  <title>Rosfinex</title>
+  <link rel="stylesheet" href="css/main-page.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a href="#!" class="header__logo">
+          <img src="./img/icons/logo.svg" alt="Logo" />
+        </a>
+        <a href="#!" class="header__logo-mobile">
+          <img src="./img/icons/logo-mobile.svg" alt="Logo" />
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#steps" class="nav__link">Сценарий сделки</a>
+            </li>
+            <li class="nav__item">
+              <a href="#calculator" class="nav__link">Рассчитать платеж</a>
+            </li>
+            <li class="nav__item">
+              <a href="#banks" class="nav__link">Партнеры</a>
+            </li>
+            <li class="nav__item">
+              <a href="#footer" class="nav__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__btn-block">
+          <div class="header__contact-btn">
+            <a class="btn header__btn" href="tel:84951572255">8 (495) 157-22-55</a>
+          </div>
+          <button class="header__burger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <ul class="header__burger-menu">
+          <li class="header__burger-item">
+            <a href="#!" class="header__burger-link">Под залог недвижимости</a>
+          </li>
+          <div class="header__burger-hr"></div>
+          <li class="header__burger-item">
+            <a href="#!" class="header__burger-link">Ипотека</a>
+          </li>
+          <div class="header__burger-hr"></div>
+          <li class="header__burger-item">
+            <a href="#!" class="header__burger-link">Компания и сертификаты</a>
+          </li>
+          <div class="header__burger-hr"></div>
+          <li class="header__burger-item">
+            <a href="#!" class="header__burger-link">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__bg-left">
+        <img src="./img/hero/hero-img-left.svg" alt="" />
+      </div>
+      <div class="hero__bg-right">
+        <img src="./img/hero/hero-img-right-chess.png" alt="" />
+      </div>
+      <div class="hero__bg-chess">
+        <img src="./img/hero/chess.png" alt="" />
+      </div>
+      <div class="hero__bg-mobile">
+        <img src="./img/hero/hero-img-mobile.svg" alt="" />
+      </div>
+      <div class="hero__bg-chess-mobile">
+        <img src="./img/hero/chess-mobile.png" alt="" />
+      </div>
+      <div class="hero__chess hero__chess--first">
+        <img src="./img/hero/chess-1.png" alt="" />
+      </div>
+      <div class="hero__chess hero__chess--second">
+        <img src="./img/hero/chess-2.png" alt="" />
+      </div>
+      <div class="container">
+        <!-- основной блок hero__wrap -->
+        <div class="hero__wrap">
+          <div class="hero__info-wrap">
+            <div class="hero__info">
+              <img src="./img/icons/percent.svg" alt="Percent" class="hero__info-img" />
+              <p class="hero__info-text">Минимальный процент по кредиту</p>
+            </div>
+
+            <div class="hero__info">
+              <img src="./img/icons/watch.svg" alt="Percent" class="hero__info-img" />
+              <p class="hero__info-text">Работаем даже с просрочками</p>
+            </div>
+          </div>
+
+          <h1 class="hero__title">
+            Выдача кредитов <br />
+            на выгодных условиях <br />
+            в день обращения от 2%
+          </h1>
+
+          <p class="hero__subtitle">
+            Кредиты дешевле банковских — эксклюзивные ставки <br />
+            и собственное финансирование
+            <span class="hero__subtitle-hidden">без привязки к ЦБ.</span>
+            <br />
+            <b>Выдаем собстсвенные средства!</b>
+          </p>
+
+          <div class="hero__btn-block">
+            <a href="#request" class="btn hero__btn">Оставить заявку</a>
+            <a href="#calculator" class="btn-transparent hero__btn-transparent">
+              Рассчитать платеж
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- блок плашек (desktop) -->
+      <div class="hero__about-wrap">
+        <div class="hero__about">
+          <div class="hero__about-icon">
+            <img src="./img/hero/about-icon-1.svg" alt="" />
+          </div>
+          <div class="hero__about-inner">
+            <div class="hero__about-title">15 лет</div>
+            <div class="hero__about-text">На финансовом рынке</div>
+          </div>
+        </div>
+
+        <div class="hero__hr"></div>
+
+        <div class="hero__about">
+          <div class="hero__about-icon">
+            <img src="./img/hero/about-icon-2.svg" alt="" />
+          </div>
+          <div class="hero__about-inner">
+            <div class="hero__about-title">&lt;10000</div>
+            <div class="hero__about-text">Довольных клиентов</div>
+          </div>
+        </div>
+
+        <div class="hero__hr"></div>
+
+        <div class="hero__about">
+          <div class="hero__about-icon">
+            <img src="./img/hero/about-icon-3.svg" alt="" />
+          </div>
+          <div class="hero__about-inner">
+            <div class="hero__about-title">Более 40</div>
+            <div class="hero__about-text">
+              Экспертов рынка
+              <span class="hero__about-text--hidden">в команде</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__hr"></div>
+
+        <div class="hero__about">
+          <div class="hero__about-icon">
+            <img src="./img/hero/about-icon-4.svg" alt="" />
+          </div>
+          <div class="hero__about-inner">
+            <div class="hero__about-title">&lt;500 млн рублей</div>
+            <div class="hero__about-text">Выдано кредитов</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- блок плашек (mobile) -->
+      <div class="hero__about-wrap--mobile">
+        <div class="hero__about-inner">
+          <div class="hero__about">
+            <div class="hero__about-icon">
+              <img src="./img/hero/about-icon-1.svg" alt="" />
+            </div>
+            <div class="hero__about-content">
+              <div class="hero__about-title">15 лет</div>
+              <div class="hero__about-text">На финансовом рынке</div>
+            </div>
+          </div>
+          <div class="hero__about">
+            <div class="hero__about-icon">
+              <img src="./img/hero/about-icon-2.svg" alt="" />
+            </div>
+            <div class="hero__about-content">
+              <div class="hero__about-title">Более 40</div>
+              <div class="hero__about-text">Экспертов рынка</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__about-inner">
+          <div class="hero__about">
+            <div class="hero__about-icon">
+              <img src="./img/hero/about-icon-3.svg" alt="" />
+            </div>
+            <div class="hero__about-content">
+              <div class="hero__about-title">&lt;100</div>
+              <div class="hero__about-text">Довольных инвесторов</div>
+            </div>
+          </div>
+
+          <div class="hero__about">
+            <div class="hero__about-icon">
+              <img src="./img/hero/about-icon-4.svg" alt="" />
+            </div>
+            <div class="hero__about-content">
+              <div class="hero__about-title">350 млн рублей</div>
+              <div class="hero__about-text">Диверсифицированный портфель</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="target">
+      <div class="container">
+        <h2 class="target__title">На какие цели мы выдаем кредит?</h2>
+        <p class="target__subtitle">
+          Для наших клиентов мы расширили список целей кредитования. <br />
+          <span>Не верите? Доказательства ниже.</span>
+        </p>
+
+        <div class="target__cards">
+          <div class="target__card">
+            <img src="./img/target/safe.png" alt="" class="target__card-img target__card-img--hidden" />
+            <img src="./img/target/safe-mobile.png" alt="" class="target__card-img-mobile" />
+            <div class="target__card-title">
+              <br />
+              <br />
+              Кредит на <br />
+              развитие бизнеса
+            </div>
+            <div class="target__card-subtitle">
+              Ускорьте рост своего бизнеса <br />
+              с кредитом на пополнение <br />
+              обортных средств
+            </div>
+          </div>
+          <div class="target__card">
+            <img src="./img/target/check.png" alt="" class="target__card-img target__card-img--hidden" />
+            <img src="./img/target/check-mobile.png" alt="" class="target__card-img-mobile" />
+            <div class="target__card-title">
+              Кредит на <br />
+              рефинансирование
+            </div>
+            <div class="target__card-subtitle">
+              Поможем решить сложности <br />
+              по кредитным обязательствам <br />
+              с другими банками <br />
+              <b>и даже микрозаймами!</b>
+            </div>
+          </div>
+          <div class="target__card">
+            <img src="./img/target/gift.png" alt="" class="target__card-img target__card-img--hidden" />
+            <img src="./img/target/gift-mobile.png" alt="" class="target__card-img-mobile" />
+            <div class="target__card-title">
+              Кредит на <br />
+              различные цели
+            </div>
+            <div class="target__card-subtitle">
+              Путешествия, авто, хобби, <br />
+              а может и все вместе. Пора <br />
+              переходить к активным действиям.
+            </div>
+          </div>
+          <div class="target__card">
+            <img src="./img/target/bank.png" alt="" class="target__card-img target__card-img--hidden" />
+            <img src="./img/target/bank-mobile.png" alt="" class="target__card-img-mobile" />
+            <div class="target__card-title">
+              Ипотека на <br />
+              покупку жилья
+            </div>
+            <div class="target__card-subtitle">
+              Вы думайте о том, <br />
+              как укомплектовать квартиру. <br />
+              А как получить ипотеку знаем мы!
+            </div>
+          </div>
+        </div>
+
+        <div class="target__btn-wrap">
+          <a href="#request" class="btn target__btn">Оставить заявку</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="banks" class="banks">
+      <div class="container">
+        <div class="banks_wrap">
+          <h2 class="banks__title">
+            Только надежные и проверенные <br />
+            временем банки страны
+          </h2>
+          <p class="banks__subtitle">
+            Мы имеем эксклюзивный доступ к выгодным ипотечным программам в
+            банках-партнерах <br />
+            и не сотрудничаем с “сомнительными” банками.
+          </p>
+
+
+          <div class="banks__cards">
+            <div class="banks__card">
+              <img src="./img/banks/bzhf-bank.png" alt="" />
+            </div>
+            <div class="banks__card">
+              <img src="./img/banks/metalinvest-bank.png" alt="" />
+            </div>
+            <div class="banks__card">
+              <img src="./img/banks/rosevro-bank.png" alt="" />
+            </div>
+            <div class="banks__card">
+              <img src="./img/banks/absolut-bank.png" alt="" />
+            </div>
+            <div class="banks__card">
+              <img src="./img/banks/promsvyaz-bank.png" alt="" />
+            </div>
+            <div class="banks__card">
+              <img src="./img/banks/sovkom-bank.png" alt="" />
+            </div>
+            <div class="banks__card">
+              <img src="./img/banks/akbars-bank.png" alt="" />
+            </div>
+            <div class="banks__card">
+              <img src="./img/banks/vtb-bank.png" alt="" />
+            </div>
+            <div class="banks__card">
+              <img src="./img/banks/t-bank.png" alt="" />
+            </div>
+            <div class="banks__card">
+              <img src="./img/banks/mkb-bank.png" alt="" />
+            </div>
+            <div class="banks__card">
+              <img src="./img/banks/mts-bank.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="container">
+        <h2 class="advantages__title">
+          Преимущества обращения в нашу компанию
+        </h2>
+        <p class="advantages__subtitle">
+          Обратите внимание на 8 довольно убедительных и искренних плюсов,
+          <br />
+          чтобы еще раз убедиться в правильности выбора взаимодействия с нами.
+        </p>
+
+        <div class="advantages__cards">
+          <div class="advantages__card">
+            <img src="./img/advantages/card-icon-1.svg" alt="" class="advantages__card-icon" width="64" height="64" />
+            <div class="advantages__card-title">
+              Минимум документов для <br />
+              оформления заявки
+            </div>
+            <div class="advantages__card-text">
+              Чтобы сотрудничество было простым, мы выдаем кредиты <br />
+              с минимальным пакетом документов от Вас. <br />
+              Например, не обязательно подтверждать свой доход <br />
+              и приносить справки с работы.
+            </div>
+          </div>
+          <div class="advantages__card">
+            <img src="./img/advantages/card-icon-2.svg" alt="" class="advantages__card-icon" width="64" height="64" />
+            <div class="advantages__card-title">
+              Минимально возможная процентная ставка
+            </div>
+            <div class="advantages__card-text">
+              Благодаря нашей высокой клиентоориентированности и большому
+              опыту, у вас есть возможность получить кредит с минимальной
+              процентной ставкой при выполнении определенных условий.
+            </div>
+          </div>
+          <div class="advantages__card">
+            <img src="./img/advantages/card-icon-3.svg" alt="" class="advantages__card-icon" width="64" height="64" />
+            <div class="advantages__card-title">
+              До 80% от стоимости вашей недвижимости
+            </div>
+            <div class="advantages__card-text">
+              В нашей компании вы можете получить кредит вплоть до 80% от
+              стоимости вашей недвижимости. При необходимости расходы на
+              грамотную и честную оценку жилья мы берем на себя.
+            </div>
+          </div>
+          <div class="advantages__card">
+            <img src="./img/advantages/card-icon-4.svg" alt="" class="advantages__card-icon" width="64" height="64" />
+            <div class="advantages__card-title">
+              Прозрачные условия <br />
+              для каждого клиента
+            </div>
+            <div class="advantages__card-text">
+              Мы изначально создаем доверительные отношения с нашими
+              клиентами. В договорах нет “пунктов мелким шрифтом” и запутанных
+              формулировок. <br />
+              Непонятные детали всегда будут объяснены.
+            </div>
+          </div>
+          <div class="advantages__card">
+            <img src="./img/advantages/card-icon-5.svg" alt="" class="advantages__card-icon" width="64" height="64" />
+            <div class="advantages__card-title">
+              Кредитная история <br />
+              не имеет значения
+            </div>
+            <div class="advantages__card-text">
+              Если вы испытываете трудности с испорченной кредитной историей,
+              мы “закроем на это глаза” при выдаче денег. Ваша недвижимость
+              обеспечит двусторонние гарантии исполнения сделки.
+            </div>
+          </div>
+          <div class="advantages__card">
+            <img src="./img/advantages/card-icon-6.svg" alt="" class="advantages__card-icon" width="64" height="64" />
+            <div class="advantages__card-title">
+              Минимум времени на одобрение заявки
+            </div>
+            <div class="advantages__card-text">
+              Все рабочие процессы нашей компании выстроены для максимальной
+              скорости получения решения о кредитовании и выдаче самих
+              денежных средств. Вплоть до результата “день в день”.
+            </div>
+          </div>
+          <div class="advantages__card">
+            <img src="./img/advantages/card-icon-7.svg" alt="" class="advantages__card-icon" width="64" height="64" />
+            <div class="advantages__card-title">
+              Работаем честно и в рамках законодательства РФ
+            </div>
+            <div class="advantages__card-text">
+              Ничего не скрываем от наших клиентов. Не нарушаем действующее
+              законодательство Российской Федерации.
+            </div>
+          </div>
+          <div class="advantages__card">
+            <img src="./img/advantages/card-icon-8.svg" alt="" class="advantages__card-icon" width="64" height="64" />
+            <div class="advantages__card-title">
+              Без предоплаты и скрытых комиссий
+            </div>
+            <div class="advantages__card-text">
+              Для обращения в нашу компанию вам не потребуется сначала
+              оплачивать взносы. Исчерпывающая информация о комиссиях будет
+              сразу же доступна.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="documents">
+      <img src="./img/documents/documents-left-bg.svg" alt="" class="documents__left-bg" />
+      <img src="./img/documents/watch-img-mobile.png" alt="" class="documents__watch-mobile" />
+      <div class="container">
+        <div class="documents__wrap">
+          <div class="documents__left-block">
+            <img src="./img/documents/documents-bg.svg" alt="" class="documents__bg-img" />
+            <img src="./img/documents/watch-img.png" alt="" class="documents__watch-img" />
+          </div>
+
+          <div class="documents__right-block">
+            <div class="documents__title">
+              Поможем привести все <br />
+              документы в порядок
+            </div>
+
+            <div class="documents__text">
+              Работаем официально: не просим документы по фото, сканам или онлайн — всё обсуждаем только при личной
+              встрече.
+              Объясним, что нужно, поможем разобраться и подготовиться. <b>Безопасно! Профессионально! По делу!</b>
+            </div>
+
+            <div class="documents__btn-block">
+              <a href="#request" class="btn documents__btn">Оставить заявку</a>
+              <a href="#calculator" class="btn-transparent documents__btn-transparent">
+                Рассчитать платеж
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="documents__cards">
+          <div class="document__card">
+            <div class="document__card-title">
+              Без очередей в МФЦ <br />
+              и других организациях
+            </div>
+            <div class="document__card-text">
+              Мы берём на себя всю бюрократию. Позвольте нашим специалистам сэкономить ваше время
+              и сделать <br /> всё правильно <B>с первого раза!</B>
+            </div>
+          </div>
+          <div class="document__card">
+            <div class="document__card-title">
+              Без длительного <br />
+              ожидания документов
+            </div>
+            <div class="document__card-text">
+              В нашем арсенале четкий план действий, который ведет к
+              значительному сокращению временных затрат <br /> на оформление сделок.
+            </div>
+          </div>
+          <div class="document__card">
+            <div class="document__card-title">
+              Полное сопровождение <br />
+              на всех этапах сделки
+            </div>
+            <div class="document__card-text">
+              Вы не один — подскажем, проверим, оформим и доведём дело до результата без лишней бюрократии.
+            </div>
+          </div>
+          <div class="document__card">
+            <div class="document__card-title">
+              Без затягивания <br />
+              всего процесса
+            </div>
+            <div class="document__card-text">
+              Собираются только необходимые документы, ничего лишнего. <br /> Делаем
+              для вас кредитование доступным, быстрым <br />и безошибочным.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="steps" class="steps">
+      <div class="container">
+        <h2 class="steps__title">Сценарий выдачи кредита</h2>
+        <p class="steps__subtitle">
+          Всего 4 шага отделяют вас от запланированных целей! <br />
+          Разберем все непонятные моменты и проконсультируем на всех этапах.
+        </p>
+
+        <div class="steps__cards">
+          <div class="steps__card">
+            <div class="steps__card-step">Шаг 1</div>
+            <div class="steps__card-title">
+              Оформление заявки и <br />
+              первичное одобрение
+            </div>
+            <div class="steps__card-text">
+              Вы заполняете все нужные блоки и поля в заявке, это довольно
+              просто. Разве что важно быть внимательным и честным.
+            </div>
+            <a href="#request" class="steps__card-btn">Оставить заявку</a>
+            <img src="./img/steps/step-icon-1.svg" class="steps__card-img" />
+          </div>
+          <div class="steps__card">
+            <div class="steps__card-step">Шаг 2</div>
+            <div class="steps__card-title">
+              Приглашение <br />
+              посетить наш офис
+            </div>
+            <div class="steps__card-text">
+              Мы находимся по адресу: Город Москва, <br />
+              улица Новый Арбат, дом 15
+            </div>
+            <a href="#footer" class="steps__card-btn-transparent">Как к нам добраться?</a>
+            <img src="./img/steps/step-icon-2.svg" class="steps__card-img" />
+          </div>
+          <div class="steps__card">
+            <div class="steps__card-step">Шаг 3</div>
+            <div class="steps__card-title">
+              100% одобряемость кредита<br />
+              за 20 минут
+            </div>
+            <div class="steps__card-text">
+              Без лишних вопросов и ожиданий — решение за 20 минут, <br /> деньги — в день обращения.
+
+
+            </div>
+            <a href="#calculator" class="steps__card-btn-transparent">Онлайн калькулятор</a>
+            <img src="./img/steps/step-icon-3.svg" class="steps__card-img" />
+          </div>
+          <div class="steps__card">
+            <div class="steps__card-step">Шаг 4</div>
+            <div class="steps__card-title">
+              Подписание договора и <br />
+              получение наличных
+            </div>
+            <div class="steps__card-text">
+              Самый приятный момент близок. Окончательная совместная проверка
+              всех моментов и заключение сделки с последующей выдачей
+              наличных.
+            </div>
+            <a href="#request" class="steps__card-btn">Оставить заявку</a>
+            <img src="./img/steps/step-icon-4.svg" class="steps__card-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="container">
+        <div class="info__block">
+          <div class="info__wrapper">
+            <div class="info__title">
+              Ваш будущий кредит в <br />
+              наших цифрах
+            </div>
+            <div class="info__subtitle">
+              Немного наглядности не помешает, согласны?
+            </div>
+
+            <div class="info__services">
+              <div class="info__service dot-blue">
+                20 Лет <span>Максимально возможный срок кредитования</span>
+              </div>
+              <div class="info__service dot-purple">
+                1 День <span>Требуется для получения наличных</span>
+              </div>
+              <div class="info__service dot-green">
+                80%
+                <span>Максимальная сумма кредита от стоимости недвижимости</span>
+              </div>
+              <div class="info__service dot-white">
+                8% <span>Минимальная процентная ставка кредитования</span>
+              </div>
+            </div>
+          </div>
+
+          <img src="./img/info/info-img.png" alt="" class="info__img" />
+        </div>
+      </div>
+    </section>
+
+    <section class="request" id="request">
+      <div class="container">
+        <div class="request__wrap">
+          <div class="request__form-block">
+            <div class="request__form-title">Появились вопросы?</div>
+            <div class="request__form-subtitle">
+              Заполните эту небольшую форму и отправьте ее нам для обработки.
+              <br />
+              Ответ на ваш вопрос не заставит себя долго ждать.
+            </div>
+
+            <script data-b24-form="inline/8/2v7j7m"
+              data-skip-moving="true">(function (w, d, u) { var s = d.createElement('script'); s.async = true; s.src = u + '?' + (Date.now() / 180000 | 0); var h = d.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h); })(window, document, 'https://cdn-ru.bitrix24.ru/b32886208/crm/form/loader_8.js');
+            </script>
+
+            <form class="request__form" id="sending-form" action="#!" method="POST">
+          </div>
+
+          <div class="request__order-block request__order-block--hidden">
+            <div class="request__order">
+              <div class="request__order-confirm dot-done">Займ выдан</div>
+              <div class="request__order-price request__order-price--green">
+                2 100 000 ₽ на 10 лет.
+              </div>
+              <div class="request__order-about">
+                Займ под залог доли в квартире в городе Москва
+              </div>
+              <div class="request__order-date">Дата заявки: 13.03.25</div>
+            </div>
+            <div class="request__order">
+              <div class="request__order-confirm dot-issued">
+                На рассмотрении
+              </div>
+              <div class="request__order-price request__order-price--yellow">
+                6 000 000 ₽ на 15 лет.
+              </div>
+              <div class="request__order-about">
+                Займ под залог земли в городе Санкт-Петербург
+              </div>
+              <div class="request__order-date">Дата заявки: 13.03.25</div>
+            </div>
+            <div class="request__order">
+              <div class="request__order-confirm dot-done">Займ выдан</div>
+              <div class="request__order-price request__order-price--green">
+                4 200 000 ₽ на 20 лет.
+              </div>
+              <div class="request__order-about">
+                Займ под залог доли квартиры в городе Екатеринбург
+              </div>
+              <div class="request__order-date">Дата заявки: 13.03.25</div>
+            </div>
+            <div class="request__order">
+              <div class="request__order-confirm dot-done">Займ выдан</div>
+              <div class="request__order-price request__order-price--green">
+                1 000 000 ₽ на 5 лет.
+              </div>
+              <div class="request__order-about">
+                Займ под залог недвижимости в городе Казань
+              </div>
+              <div class="request__order-date">Дата заявки: 13.03.25</div>
+            </div>
+            <div class="request__order">
+              <div class="request__order-confirm dot-done">Займ выдан</div>
+              <div class="request__order-price request__order-price--green">
+                500 000 ₽ на 3 года.
+              </div>
+              <div class="request__order-about">
+                Займ под залог недвижимости в городе Москва
+              </div>
+              <div class="request__order-date">Дата заявки: 13.03.25</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="request__track-wrapper">
+        <div class="request__order-track">
+          <div class="request__order">
+            <div class="request__order-confirm dot-done">Займ выдан</div>
+            <div class="request__order-price request__order-price--green">
+              2 100 000 ₽ на 10 лет.
+            </div>
+            <div class="request__order-about">
+              Займ под залог доли в квартире в городе Москва
+            </div>
+            <div class="request__order-date">Дата заявки: 13.03.25</div>
+          </div>
+          <div class="request__order">
+            <div class="request__order-confirm dot-issued">
+              На рассмотрении
+            </div>
+            <div class="request__order-price request__order-price--yellow">
+              6 000 000 ₽ на 15 лет.
+            </div>
+            <div class="request__order-about">
+              Займ под залог недвижимости в городе Санкт-Петербург
+            </div>
+            <div class="request__order-date">Дата заявки: 13.03.25</div>
+          </div>
+          <div class="request__order">
+            <div class="request__order-confirm dot-done">Займ выдан</div>
+            <div class="request__order-price request__order-price--green">
+              4 200 000 ₽ на 20 лет.
+            </div>
+            <div class="request__order-about">
+              Займ под залог доли квартиры в городе Екатеринбург
+            </div>
+            <div class="request__order-date">Дата заявки: 13.03.25</div>
+          </div>
+          <div class="request__order">
+            <div class="request__order-confirm dot-done">Займ выдан</div>
+            <div class="request__order-price request__order-price--green">
+              1 000 000 ₽ на 5 лет.
+            </div>
+            <div class="request__order-about">
+              Займ под залог недвижимости в городе Казань
+            </div>
+            <div class="request__order-date">Дата заявки: 13.03.25</div>
+          </div>
+          <div class="request__order">
+            <div class="request__order-confirm dot-done">Займ выдан</div>
+            <div class="request__order-price request__order-price--green">
+              500 000 ₽ на 3 года.
+            </div>
+            <div class="request__order-about">
+              Займ под залог недвижимости в городе Москва
+            </div>
+            <div class="request__order-date">Дата заявки: 13.03.25</div>
+          </div>
+          <div class="request__order">
+            <div class="request__order-confirm dot-done">Займ выдан</div>
+            <div class="request__order-price request__order-price--green">
+              4 200 000 ₽ на 20 лет.
+            </div>
+            <div class="request__order-about">
+              Займ под залог недвижимости в городе Москва
+            </div>
+            <div class="request__order-date">Дата заявки: 13.03.25</div>
+          </div>
+          <div class="request__order">
+            <div class="request__order-confirm dot-done">Займ выдан</div>
+            <div class="request__order-price request__order-price--green">
+              4 200 000 ₽ на 20 лет.
+            </div>
+            <div class="request__order-about">
+              Займ под залог недвижимости в городе Москва
+            </div>
+            <div class="request__order-date">Дата заявки: 13.03.25</div>
+          </div>
+          <div class="request__order">
+            <div class="request__order-confirm dot-done">Займ выдан</div>
+            <div class="request__order-price request__order-price--green">
+              4 200 000 ₽ на 20 лет.
+            </div>
+            <div class="request__order-about">
+              Займ под залог недвижимости в городе Москва
+            </div>
+            <div class="request__order-date">Дата заявки: 13.03.25</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="calc" id="calculator">
+      <div class="container">
+        <div class="calc__wrap">
+          <div class="calc__block">
+            <div class="calc__title">Калькулятор кредитования</div>
+            <div class="calc__subtitle">
+              Эта функция стремится помочь в создании первичного представления
+              о
+              <br />
+              возможностях кредитования с использованием примерных вводных.
+            </div>
+
+            <div class="calc__wrapper">
+              <div class="calc__dropdown">
+                <label class="calc__label">Город проживания?</label>
+                <input type="text" placeholder="В городе Москва" class="calc__input" />
+              </div>
+              <div class="calc__dropdown">
+                <label class="calc__label">Наличие активов для снижение процентной ставки:</label>
+                <select class="calc__dropdown-select">
+                  <option>Квартира</option>
+                  <option>Автомобиль</option>
+                  <option>Дом с землёй</option>
+                  <option>Комната в квартире</option>
+                  <option>Доля в квартире</option>
+                  <option>Земля</option>
+                  <option>Коммерческое помещение</option>
+                  <option>Нет активов</option>
+                </select>
+                <img src="./img/icons/arrow-dropdown.svg" alt="" class="calc__dropdown-arrow" />
+              </div>
+              <div class="calc__sum">
+                <label class="calc__label">Сумма которую вы хотите взять в кредит?</label>
+                <input type="text" class="calc__input calc__num-input" />
+                <input type="range" min="100000" max="50000000" value="100000" class="calc__range calc__num-range" />
+              </div>
+              <div class="calc__sum">
+                <label class="calc__label">На какой срок вы хотите взять кредит?</label>
+
+                <div class="calc__input-wrapper">
+                  <input type="text" class="calc__input calc__num-input" />
+                  <span class="calc__input-suffix">мес.</span>
+                </div>
+
+                <input type="range" min="30" max="300" value="30" class="calc__range calc__num-range" />
+              </div>
+            </div>
+
+            <div class="calc__btn-block">
+              <button class="btn calc__btn">Рассчитать кредит</button>
+            </div>
+
+            <p class="calc__text">
+              Предварительный расчет. Не является публичной офертой.
+            </p>
+          </div>
+        </div>
+
+        <div class="calc__modal">
+          <div class="calc__modal-block">
+            <h2 class="calc__modal-title">Калькулятор кредитования</h2>
+            <p class="calc__modal-subtitle">
+              Эта функция стремится помочь в создании первичного представления
+              о <br />
+              возможностях кредитования с использованием примерных вводных.
+            </p>
+
+            <div class="calc__modal-card-block">
+              <div class="calc__modal-card">
+                <div class="calc__modal-card-title">
+                  Расчет по вашему кредиту
+                </div>
+
+                <div class="calc__modal-sum-block">
+                  <div class="calc__modal-sum">
+                    <div class="calc__modal-sum-label">
+                      Сумма которую вы получите:
+                    </div>
+                    <div class="calc__modal-sum-number">
+                      19 950 000 Рублей
+                    </div>
+                  </div>
+                  <div class="calc__modal-sum">
+                    <div class="calc__modal-sum-label">
+                      Прогнозируемая процентная ставка
+                    </div>
+                    <div class="calc__modal-sum-number">8% годовых</div>
+                  </div>
+                  <div class="calc__modal-sum">
+                    <div class="calc__modal-sum-label">
+                      Прогнозируемый ежемесячный платеж
+                    </div>
+                    <div class="calc__modal-sum-number">166 869 в месяц</div>
+                  </div>
+                  <div class="calc__modal-sum">
+                    <div class="calc__modal-sum-label">
+                      Прогнозируемый срок кредитования
+                    </div>
+                    <div class="calc__modal-sum-number">240 месяцев</div>
+                  </div>
+                </div>
+
+                <button class="btn calc__modal-card-btn">
+                  Оставить заявку
+                </button>
+              </div>
+
+              <div class="calc__modal-card">
+                <div class="calc__modal-card-title calc__modal-card-title--blue">
+                  Возможно вам будет интересно
+                </div>
+
+                <div class="calc__modal-sum-block">
+                  <div class="calc__modal-sum">
+                    <div class="calc__modal-sum-label">
+                      Сумма которую вы получите:
+                    </div>
+                    <div class="calc__modal-sum-number">
+                      3 250 000 Рублей
+                    </div>
+                  </div>
+                  <div class="calc__modal-sum">
+                    <div class="calc__modal-sum-label">
+                      Прогнозируемая процентная ставка
+                    </div>
+                    <div class="calc__modal-sum-number">8% годовых</div>
+                  </div>
+                  <div class="calc__modal-sum">
+                    <div class="calc__modal-sum-label">
+                      Прогнозируемый ежемесячный платеж
+                    </div>
+                    <div class="calc__modal-sum-number">65 898 в месяц</div>
+                  </div>
+                  <div class="calc__modal-sum">
+                    <div class="calc__modal-sum-label">
+                      Прогнозируемый срок кредитования
+                    </div>
+                    <div class="calc__modal-sum-number">60 месяцев</div>
+                  </div>
+                </div>
+
+                <button class="btn calc__modal-card-btn">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+
+            <div class="calc__modal-btn-block">
+              <button class="btn-transparent calc__modal-btn">
+                Рассчитать повторно
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title">О нас говорят дела!</h2>
+        <p class="reviews__subtitle">Мы гордимся тем, что помогаем людям!</p>
+
+        <div class="reviews__slider-wrapper">
+          <button class="reviews__arrow reviews__arrow--left">
+            <img src="img/icons/slider-arrow-left.svg" alt="" />
+          </button>
+
+          <div class="reviews__slider">
+            <div class="reviews__card">
+              <div class="reviews__card-user-block">
+                <div class="reviews__card-avatar">
+                  <img src="./img/reviews/avatar.png" alt="Avatar" />
+                </div>
+
+                <div class="reviews__card-inner">
+                  <div class="reviews__card-name">Журавлёв Илья</div>
+                  <div class="reviews__card-client">Клиент Rosfinex</div>
+                </div>
+
+                <div class="reviews__card-date">12.12.2024</div>
+              </div>
+
+              <div class="reviews__card-text">
+                Для расширения бизнеса необходимы были финансовые вложения. Поэтому я обратился в Rosfinex. Андрей меня
+                проконсультировал по данному вопросу. И в этот же день я получил необходимую сумму.
+              </div>
+
+
+            </div>
+            <div class="reviews__card">
+              <div class="reviews__card-user-block">
+                <div class="reviews__card-avatar">
+                  <img class="reviews__card-avatar" src="./img/reviews/avatar1.jpg" alt="Avatar" />
+                </div>
+
+                <div class="reviews__card-inner">
+                  <div class="reviews__card-name">Певченко Игорь</div>
+                  <div class="reviews__card-client">Клиент Rosfinex</div>
+                </div>
+
+                <div class="reviews__card-date">12.12.2024</div>
+              </div>
+              <div class="reviews__card-text">
+                Выгодные условия для оформления займа под залог авто. Спасибо Жанне, что предложила мне разные варианты
+                и именно это мне подошло больше всего. Вот я обратился и в этот же день все сделали.
+              </div>
+
+
+            </div>
+            <div class="reviews__card">
+              <div class="reviews__card-user-block">
+                <div class="reviews__card-avatar">
+                  <img class="reviews__card-avatar" src="./img/reviews/avatar5.jpeg" alt="Avatar" />
+                </div>
+
+                <div class="reviews__card-inner">
+                  <div class="reviews__card-name">Алаев Папел</div>
+                  <div class="reviews__card-client">Клиент Rosfinex</div>
+                </div>
+
+                <div class="reviews__card-date">12.12.2024</div>
+              </div>
+              <div class="reviews__card-text">
+                Спасибо Егору за полноценную консультацию. Объяснил, чем они могут помочь в моей ситуации. Взял деньги
+                под залог для развития бизнеса. Шаг был рискованный, но мне предложили привлекательные условия.
+              </div>
+
+
+            </div>
+            <div class="reviews__card">
+              <div class="reviews__card-user-block">
+                <div class="reviews__card-avatar">
+                  <img class="reviews__card-avatar" src="./img/reviews/avatar3.jpg" alt="Avatar" />
+                </div>
+
+                <div class="reviews__card-inner">
+                  <div class="reviews__card-name">Никулин Макс</div>
+                  <div class="reviews__card-client">Клиент Rosfinex</div>
+                </div>
+
+                <div class="reviews__card-date">12.12.2024</div>
+              </div>
+              <div class="reviews__card-text">
+                Помогли нам получить ипотеку на покупку квартиры, несмотря на то, что в двух банках нам пришёл отказ.
+                Работали с менеджером Максимом. Со всей ответственностью подошла к делу. В результате чего, мы смогли
+                взять ипотеку.
+              </div>
+
+
+            </div>
+          </div>
+
+          <button class="reviews__arrow reviews__arrow--right">
+            <img src="img/icons/slider-arrow-right.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="reviews__modal">
+          <div class="reviews__modal-block">
+            <button class="reviews__modal-close">
+              <img src="./img/icons/close-btn.svg" alt="" width="11" height="10" />
+            </button>
+
+            <div class="reviews__modal-user-block">
+              <div class="reviews__modal-user-avatar">
+                <img src="./img/reviews/avatar4.jpeg" alt="Avatar" />
+              </div>
+
+              <div class="reviews__modal-inner">
+                <div class="reviews__modal-user-name">Журавлёв Илья</div>
+                <div class="reviews__modal-user-client">Клиент Rosfinex</div>
+              </div>
+
+              <div class="reviews__modal-user-date">12.12.2024</div>
+            </div>
+
+            <div class="reviews__modal-text">
+              В течении недели у меня было несколько предложений. Мы повторно
+              встретились с Алексеем, произвели подсчет и я принял решение. В
+              моей ситуации было бы глупо отказаться от 3500000 под 11,5%.
+              Спасибо за хорошую работу!В течении недели у меня было несколько
+              предложений. Мы повторно встретились с Алексеем, произвели
+              подсчет и я принял решение. В моей ситуации было бы глупо
+              отказаться от 3500000 под 11,5%. Спасибо за хорошую работу!В
+              течении недели у меня было несколько предложений. Мы повторно
+              встретились с Алексеем, произвели подсчет и я принял решение. В
+              моей ситуации было бы глупо отказаться от 3500000 под 11,5%.
+              Спасибо за хорошую работу!В течении недели у меня было несколько
+              предложений. Мы повторно встретились с Алексеем, произвели
+              подсчет и я принял решение. В моей ситуации было бы глупо
+              отказаться от 3500000 под 11,5%. Спасибо за хорошую работу!В
+              течении недели у меня было несколько предложений. Мы повторно
+              встретились с Алексеем, произвели подсчет и я принял решение. В
+              моей ситуации было бы глупо отказаться от 3500000 под 11,5%.
+              Спасибо за хорошую работу!
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__left-inner">
+          <div style="position: relative; overflow: hidden">
+            <a href="https://yandex.com/maps/org/rosfineks/224204391456/?utm_medium=mapframe&utm_source=maps" style="
+                  color: #eee;
+                  font-size: 12px;
+                  position: absolute;
+                  top: 0px;
+                ">Rosfinex</a><a
+              href="https://yandex.com/maps/213/moscow/category/financial_consulting/184105394/?utm_medium=mapframe&utm_source=maps"
+              style="
+                  color: #eee;
+                  font-size: 12px;
+                  position: absolute;
+                  top: 14px;
+                ">Финансовый консалтинг в Москве</a><a
+              href="https://yandex.com/maps/213/moscow/category/mortgage_agency/184107517/?utm_medium=mapframe&utm_source=maps"
+              style="
+                  color: #eee;
+                  font-size: 12px;
+                  position: absolute;
+                  top: 28px;
+                ">Ипотечное агентство в Москве</a><iframe
+              src="https://yandex.com/map-widget/v1/?ll=37.595024%2C55.751271&mode=poi&poi%5Bpoint%5D=37.592811%2C55.751942&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D224204391456&tab=related&z=17.4"
+              width="790" height="500" frameborder="0" allowfullscreen="true"
+              style="position: relative; border-radius: 20px" class="footer__map-frame"></iframe>
+          </div>
+        </div>
+        <div class="footer__right-inner">
+          <div class="footer__logo">
+            <img src="./img/icons/logo.svg" alt="" />
+          </div>
+          <div class="footer__logo-mobile">
+            <img src="./img/icons/logo-mobile.svg" alt="" />
+          </div>
+
+          <div class="footer__address-block">
+            <h2 class="footer__address-title">АДРЕС ОФИСА:</h2>
+            <div class="footer__adress-block-inner">
+              <div class="footer__address footer__info">
+                г. Москва, ул. Новый Арбат, д. 15
+              </div>
+
+            </div>
+          </div>
+
+          <div class="footer__number-inner">
+            <a class="footer__number footer__info" href="tel:84957489572">Тел.: 8 (495) 157-22-55</a>
+            </br>
+            <a class="footer__mail footer__info" href="mailto:info@rosfinex.ru">E-mail: info@rosfinex.ru</a>
+          </div>
+
+          <div class="footer__about">
+            КПК "КОНГЛОМЕРАТ" ИНН 5001133066 КПП 500101001 </br> ОГРН 1205000019355
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/gsap.min.js"></script>
+  <script src="./js/ScrollTrigger.min.js"></script>
+  <script src="./js/gsap.js"></script>
+  <script src="./js/main-page.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

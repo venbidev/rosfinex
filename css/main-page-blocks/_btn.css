@@ -1,0 +1,15 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #0699ff 0%, #177bff 53.37%, #285bff 100%);
+  color: var(--color-white);
+  transition: color 0.2s ease-in;
+
+  &:hover {
+    background: transparent;
+    border: 2px solid #009af1;
+    color: #009af1;
+  }
+}

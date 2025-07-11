@@ -1,0 +1,104 @@
+.about {
+  padding-top: 160px;
+  background: var(--color-black);
+  overflow-x: hidden;
+}
+
+.about__title {
+  font-family: var(--font-second);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.175;
+  text-align: center;
+  color: var(--color-white);
+  margin-bottom: 32px;
+}
+
+.about__subtitle {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
+  text-align: center;
+  color: #9896b2;
+  margin-bottom: 40px;
+}
+
+.about__cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  cursor: grab;
+  width: calc(100% + (100vw - 100%) / 2);
+  margin-left: 0;
+
+  :active {
+    cursor: grabbing;
+  }
+}
+
+.about__cards::-webkit-scrollbar {
+  display: none;
+}
+
+.about__card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 20px;
+  padding: 32px;
+  min-width: 520px;
+  flex: 0 0 400px;
+  min-height: 318px;
+  background: linear-gradient(
+    142deg,
+    rgba(197, 227, 255, 0.1) 0%,
+    rgba(153, 189, 212, 0.03) 100%
+  );
+}
+
+.about__card-num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 76px;
+  width: 52px;
+  height: 52px;
+  background: linear-gradient(
+    142deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(177, 184, 216, 0.01) 100%
+  );
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.125;
+  background: linear-gradient(135deg, #f1f8fe 0%, #daecff 51.92%, #cae4ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.about__card-title {
+  font-family: var(--font-second);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08333;
+  background: linear-gradient(180deg, #f7f5ff 0%, #e1dbff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about__card-text {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #9896b2;
+}
